@@ -69,3 +69,5 @@ spring.cloud.nacos.config.refreshable-dataids=actuator.properties,log.properties
 
 - `Sentinel`控制台中修改规则：仅存在于服务的内存中，不会修改Nacos中的配置值，重启后恢复原来的值。
 - `Nacos`控制台中修改规则：服务的内存中规则会更新，Nacos中持久化规则也会更新，重启后依然保持。
+
+参考：http://blog.didispace.com/spring-cloud-learning/
